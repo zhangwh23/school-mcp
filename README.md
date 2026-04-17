@@ -29,7 +29,7 @@
       "args": [
         "--refresh",
         "--from",
-        "git+https://github.com/zhangwh/school-mcp.git@main",
+        "git+https://github.com/zhangwh23/school-mcp.git@main",
         "school-mcp"
       ],
       "env": {
@@ -95,7 +95,7 @@ Claude 会调用 `school_student(action="create", payload={...})`。
 ## 本地开发
 
 ```bash
-git clone https://github.com/zhangwh/school-mcp.git
+git clone https://github.com/zhangwh23/school-mcp.git
 cd school-mcp
 uv sync --group dev
 
